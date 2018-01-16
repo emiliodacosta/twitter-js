@@ -15,7 +15,8 @@ router.get('/stylesheets/style.css', function (req, res) {
 router.get('/users/:name', function(req, res) {
   var name = req.params.name;
   var list = tweetBank.find( {name: name} );
-  res.render( 'index', { list: list } );
+  // console.log(name.split(" ")[0])
+  res.render( 'index', { tweets: list } );
 });
 
 

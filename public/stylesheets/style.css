@@ -39,6 +39,7 @@ body {
 
 code {
   font-size: 80%;
+  color: blue;
 }
 
 .tweetbox {
@@ -49,6 +50,9 @@ code {
   color: blue;
 }
 
+#bluetext {
+  color: blue;
+}
 
 .tweetbox img {
   float: left;
