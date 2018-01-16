@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
-    "nodemon": "^1.14.11"
+    "lodash": "^4.17.4",
+    "nodemon": "^1.14.11",
+    "nunjucks": "^3.0.1"
   }
 }
