@@ -12,6 +12,11 @@ router.get('/stylesheets/style.css', function (req, res) {
   res.render('layout');
 });
 
+router.get('/users/:name', function(req, res) {
+  var name = req.params.name;
+  var list = tweetBank.find( {name: name} );
+  res.render( 'index', { list: list } );
+});
 
 
 module.exports = router;

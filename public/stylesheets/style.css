@@ -45,6 +45,11 @@ code {
   padding: 7px;
 }
 
+.col-md-9 {
+  color: blue;
+}
+
+
 .tweetbox img {
   float: left;
   height: 48px;
